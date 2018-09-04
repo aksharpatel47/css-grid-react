@@ -5,5 +5,9 @@ export default () => (
     <Link href="/fundamentals">
       <a>Fundamentals</a>
     </Link>
+    <br />
+    <Link href="/album-grid">
+      <a>Album Grid</a>
+    </Link>
   </div>
 );

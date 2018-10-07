@@ -1,7 +1,7 @@
 {
   "name": "css-grid-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "Examples from cssgrid.io tutorials, written in React and Emotion.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -13,24 +13,24 @@
     "url": "git+https://github.com/aksharpatel47/css-grid-react.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Akshar",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aksharpatel47/css-grid-react/issues"
   },
   "homepage": "https://github.com/aksharpatel47/css-grid-react#readme",
   "devDependencies": {
-    "@types/next": "^6.1.4",
-    "@types/react": "^16.4.13",
-    "babel-plugin-emotion": "^9.2.8",
-    "typescript": "^3.0.3"
+    "@types/next": "7.0.1",
+    "@types/react": "16.4.15",
+    "babel-plugin-emotion": "9.2.11",
+    "typescript": "3.1.1"
   },
   "dependencies": {
-    "@zeit/next-typescript": "^1.1.0",
-    "emotion": "^9.2.8",
-    "next": "^6.1.1",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-emotion": "^9.2.8"
+    "@zeit/next-typescript": "1.1.1",
+    "emotion": "9.2.12",
+    "next": "7.0.1",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-emotion": "9.2.12"
   }
 }

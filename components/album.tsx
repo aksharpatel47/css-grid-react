@@ -8,9 +8,11 @@ const StyledAlbum = styled("div")`
   padding: 1rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: minmax(100px, 1fr) 2fr;
   grid-gap: 10px;
   align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 `;
 
 interface IAlbum {

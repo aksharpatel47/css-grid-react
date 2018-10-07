@@ -1,6 +1,8 @@
 import styled from "react-emotion";
 import { css } from "emotion";
-const StyledAlbumDetail = styled("div")``;
+const StyledAlbumDetail = styled("div")`
+  word-wrap: break-word;
+`;
 const artistNameCSS = css``;
 const artistDescriptionCSS = css``;
 

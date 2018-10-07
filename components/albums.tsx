@@ -7,6 +7,9 @@ export const StyledAlbums = styled("div")`
   background: peachpuff;
   grid-gap: 20px;
   font-family: sans-serif;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 `;
 
 export const Albums = () => {
@@ -15,10 +18,5 @@ export const Albums = () => {
     return <Album i={i} key={i} />;
   });
 
-  return (
-    <StyledAlbums>
-      {items}
-      <h2>Hello World</h2>
-    </StyledAlbums>
-  );
+  return <StyledAlbums>{items}</StyledAlbums>;
 };

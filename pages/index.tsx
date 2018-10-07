@@ -1,13 +1,7 @@
-import Link from "next/link";
+import { Layout } from "../components/layout";
 
 export default () => (
   <div>
-    <Link href="/fundamentals">
-      <a>Fundamentals</a>
-    </Link>
-    <br />
-    <Link href="/album-grid">
-      <a>Album Grid</a>
-    </Link>
+    <Layout />
   </div>
 );
